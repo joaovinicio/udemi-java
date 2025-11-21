@@ -1,0 +1,35 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		int quantidade = 0;
+		double nota = 0;
+		double total=0;
+		
+		while(nota != -1) {
+			System.out.println("Digite uma nota.: ");
+			nota = teclado.nextDouble();
+			
+		}
+		
+		if(nota >=0 && nota <=10) {
+			nota +=total;
+			quantidade++;
+			
+		}
+		
+		double media = total / quantidade;
+		System.out.println("A Quantidade é "+media);
+		
+		teclado.close();
+		
+	}
+
+}

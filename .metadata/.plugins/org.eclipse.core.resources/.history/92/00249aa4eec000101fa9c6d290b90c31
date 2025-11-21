@@ -1,0 +1,48 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioDiaDaSemana {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		String diaDaSemana = entrada.next();
+		int dia = 0;
+		
+		if(diaDaSemana.equalsIgnoreCase("Domingo")) {
+			dia=1;
+		}
+		else if(diaDaSemana.equalsIgnoreCase("Segunda")) {
+			dia=2;
+		}
+		
+		else if(diaDaSemana.equalsIgnoreCase("Terça")) {
+			dia=3;
+		}
+		else if(diaDaSemana.equalsIgnoreCase("Quarta")) {
+			dia=4;
+		}
+		else if(diaDaSemana.equalsIgnoreCase("Quinta")) {
+			dia=5;
+		}
+		else if(diaDaSemana.equalsIgnoreCase("Sexta")) {
+			dia=6;
+		}
+		else if(diaDaSemana.equalsIgnoreCase("Sabado")) {
+			dia=7;
+		}
+		
+		else if(dia >=0) {
+			System.out.printf("O Número digitado %d/n ",dia);
+		}
+		else {
+			System.out.println("Dia Inexistênte"+dia);
+		}
+		entrada.close();
+		
+		
+	}
+
+}

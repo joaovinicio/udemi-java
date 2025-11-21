@@ -1,0 +1,27 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioDiaDaSemana {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o Primeiro Dia ");
+		
+		String primeiroDia = entrada.next().trim().replace("Domingo", "1").toLowerCase();
+		int primeiro = Integer.parseInt(primeiroDia);
+		
+		if (primeiroDia = 1) {
+			
+		}
+		
+		System.out.println("O Primeiro dia é: "+primeiro);
+		
+		entrada.close();
+		
+		
+	}
+
+}

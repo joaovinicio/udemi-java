@@ -1,0 +1,20 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioDiaDaSemana {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+
+		String diaDaSemana = entrada.nextLine();
+		
+		if(diaDaSemana.equalsIgnoreCase("Domingo"))
+		
+		entrada.close();
+		
+		
+	}
+
+}

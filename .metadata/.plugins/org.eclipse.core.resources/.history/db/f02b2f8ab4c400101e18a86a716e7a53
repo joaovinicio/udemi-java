@@ -1,0 +1,25 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioWhile {
+	
+	public static void main(String[] args) {
+		
+		
+		Scanner teclado = new Scanner(System.in);
+		
+		String nota = teclado.nextLine();
+		
+		while () {
+			System.out.println("Digite um nota válida");
+			nota = teclado.nextDouble();
+			
+			
+		}
+		
+		teclado.close();
+		
+	}
+
+}

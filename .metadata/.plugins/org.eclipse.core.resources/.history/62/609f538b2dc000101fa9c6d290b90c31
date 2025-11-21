@@ -1,0 +1,42 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioDiaDaSemana {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Digite o Primeiro Dia ");
+		
+		String primeiro = "Domingo";
+		String segundo = "Segunda";
+		String terceiro = "Terça";
+		String quarto = "Quarta-Feira";
+		String quinto= "Quinta-Feira";
+		String sexto = "Sexta-Feira";
+		String setimo = "Sabado";
+		
+		
+		int dia1 = Integer.parseInt(primeiro);
+		int dia2 = Integer.parseInt(segundo);
+		int dia3 = Integer.parseInt(terceiro);
+		int dia4 = Integer.parseInt(quarto);
+		int dia5 = Integer.parseInt(quinto);
+		int dia6 = Integer.parseInt(sexto);
+		int dia7 = Integer.parseInt(setimo);
+		
+		
+		if (dia1 = 1 && primeiro = "Domingo") {
+			System.out.println();
+		}
+		
+		
+		
+		entrada.close();
+		
+		
+	}
+
+}

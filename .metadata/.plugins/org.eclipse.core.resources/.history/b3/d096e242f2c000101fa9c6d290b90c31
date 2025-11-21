@@ -1,0 +1,29 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioDiaDaSemana {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+
+		String diaDaSemana = entrada.nextLine();
+		int dia = 0;
+		
+		if("Domingo".equalsIgnoreCase(diaDaSemana)) {
+			dia =1;
+		}
+		
+		else if(dia >0){
+			System.out.printf("O Número Digitado é Invalido %s %d ",diaDaSemana,dia);
+		}
+		else {
+			System.out.println("Dia Inexistênte");
+			
+		}
+		entrada.close();
+		
+	}
+
+}

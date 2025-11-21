@@ -1,0 +1,27 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioDiaDaSemana {
+	
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		int domingo = 1;
+		int segunda = 2;
+		int terca = 3;
+		int quarta = 4;
+		int quinta = 5;
+		int sexta = 6;
+		int sabado = 7;
+
+		
+		
+		
+		entrada.close();
+		
+		
+	}
+
+}

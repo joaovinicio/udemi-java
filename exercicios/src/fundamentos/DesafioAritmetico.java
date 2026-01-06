@@ -4,20 +4,28 @@ public class DesafioAritmetico {
 	
 	public static void main(String[] args) {
 		
-		double numA = Math.pow(6 * (3 + 2), 2);
+		System.out.println("Olá, seja bem vindo! à mais um desafio.: ");
+		
+		double colunaA = Math.pow(6 * (3 + 2), 2); 
 		double denoA = 3 * 2;
-		double superiorA = numA / denoA;
 		
-		double numB = (1 - 5) * (2 - 7);
-		double denoB = 2; 
-		double superiorB = Math.pow(numB / denoB,2);
+		double resultadoA = colunaA / denoA;
 		
-		double superior = Math.pow(superiorA - superiorB ,3);
+		double colunaB = (1 - 5) * (2 - 7); 
+		double denoB = 2;
 		
-		double inferior = Math.pow(10, 3); 
+		double resultadoB = Math.pow(colunaB / denoB,2);
 		
-		double total = superior / inferior;
-		System.out.println(total);
+		double solucao = Math.pow(resultadoA - resultadoB, 3); 
+		
+		double expoente = Math.pow(10, 3); 
+		
+		double fim = solucao / expoente;
+		
+		System.out.println(fim);
+		
+		System.out.println();
+		
 		
 	}
 

@@ -1,27 +1,22 @@
 package fundamentos;
 
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Temperatura {
 
-	@SuppressWarnings("deprecation")
 	public static void main(String[] args) {
 		
-		Locale.setDefault(new Locale("en", "US"));
-		System.out.println(Locale.getDefault());
-
-		final double Ajuste = 32;
-		final double Formula = 5.0 / 9.0;
+		Scanner teclado = new Scanner(System.in).useLocale(Locale.US);
 		
-		double temperaturaFahrenheit = 86; 
-		double temperaturaCelsius = (temperaturaFahrenheit - Ajuste) * Formula;
-		System.out.println(temperaturaCelsius);	
-
-		temperaturaFahrenheit = 150;
-	    temperaturaCelsius = (temperaturaFahrenheit - Ajuste) * Formula;
+		final double formula = 5.0 / 9.0; 
+		final double ajuste = 32;
 		
-		System.out.println(temperaturaCelsius);	
-
+		double temperAtual = 86; 
+		double resultado = (temperAtual- ajuste) * formula;
+		System.out.println(resultado);
+		teclado.close();
+		
 	}
 
 }

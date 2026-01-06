@@ -1,19 +1,20 @@
 package fundamentos;
 
+//import javax.swing.JButton;
 import java.util.Date;
 
-import javax.swing.JButton;
+//import javax.swing.JButton;
 
 public class Import {
-	
+
 	public static void main(String[] args) {
-		
+
 		Date data = new Date();
 		System.out.println(data);
-		
-		JButton botao = new JButton();
-		System.out.println(botao);
-		
+	
+//		JButton botao = new JButton();
+//		System.out.println(botao);
+
 	}
 
 }
